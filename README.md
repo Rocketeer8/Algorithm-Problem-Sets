@@ -1,17 +1,17 @@
 # Description
-This repo contains a set of 5 problems 
-- Lab1: Implement and test the efficiency of three sorting algorithms - Selection Sort, Merge Sort, MergeSel Sort (a combination of selection and merge).
-- Lab2: Implement and test 3 different algorithms to perform large integer multiplication.
-  - 1st algorithm: Multiply digit by digit, O(n^2)
-  - 2nd algorithm: Divide and Conquer using Karatsuba’s algorithm, O(n ^1.585)
-  - 3rd algorithm, Modified Karatsuba’s algorithm, where only recurses for multiplicand digits > 8
-- Lab3: Given a random tree structure as an adjacency matrix, create the appropriate minimum spanning tree.
-- Lab4: Implement a greedy algorithm to determine if a hotel with N rooms can accommodate a series of room requests.
-- Lab5: Implement optimal 0-1 knapsack algorithm for lab4.
+This repo contains a set of 5 problems:
+- Lab1: Implement and evaluate the efficiency of three sorting algorithms: Selection Sort, Merge Sort, and MergeSel Sort (a hybrid of selection and merge).
+- Lab2: Develop and analyze three different algorithms for large integer multiplication:
+  - Multiply digit by digit (O(n^2))
+  - Utilize Divide and Conquer with Karatsuba’s algorithm (O(n^1.585))
+  - Enhance Karatsuba’s algorithm with modifications to reduce recursion (only recurse for multiplicand digits > 8)
+- Lab3: Construct the minimum spanning tree from a given random tree structure represented as an adjacency matrix.
+- Lab4: Design a greedy algorithm to assess the feasibility of accommodating room requests for a hotel with N rooms.
+- Lab5: Implement the optimal 0-1 knapsack algorithm to solve the problem described in Lab4.
 
 # How to Run
 - Go to https://replit.com/@hailiu5/Algorithm-Problem-Sets#README.md
-- Click "Fork & Run", sign-in if necessary
+- Click "Fork & Run", sign in if necessary
 - cd into the appropriate lab folder
 - Compile and run the lab in the Shell using the following commands:
   - For lab1: "g++ -o lab1 sort.cpp lab1.cpp && ./lab1"
