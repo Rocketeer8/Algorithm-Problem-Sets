@@ -1,0 +1,5 @@
+# Ignore folders that start with "Week" followed by a space and a number
+Week*/
+
+# Ignore the "Midterm" folder
+Midterm/
